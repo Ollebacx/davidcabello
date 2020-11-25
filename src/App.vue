@@ -1,26 +1,89 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<h1>
+  Hello.
+</h1>
+<p style="font-weight:500; font-size:2.2em">
+    My name is David Cabello.
+  </p>
+
+  <p>
+    I am an independent software developer and the creator of the open source JavaScript framework
+    <a href="https://vuejs.org" target="_blank">Vue.js</a>.
+    Most of my work is open source and publicly available on
+    <a href="https://github.com/yyx990803" target="_blank">GitHub</a>.
+  </p>
+
+  <p>
+    I have an <a href="https://blog.evanyou.me" target="_blank">old blog</a>
+    which I no longer actively update - you probably want to follow me on
+    <a href="https://twitter.com/youyuxi" target="_blank">Twitter</a> and
+    <a href="https://medium.com/@youyuxi" target="_blank">Medium</a>
+    for more up-to-date content.
+  </p>
+
+  <p>
+    If you happen to speak Chinese, my Chinese name is 尤雨溪. you can also find me on
+    <a href="https://www.weibo.com/arttechdesign" target="_blank">微博</a> and
+    <a href="https://www.zhihu.com/people/evanyou/activities" target="_blank">知乎</a>.
+  </p>
+
+  <p>
+    Outside of programming and helping my wife take care of our two kids,
+    I enjoy video games, karaoke, sushi and collecting watches.
+  </p>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: calc(10px + 0.33vw);
+    -webkit-font-smoothing: antialiased;
+    padding: 5vh 10vw;
+    color: #121314;
+  }
+  h1 {
+    font-size: 4.5em;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 1.6em;
+    font-weight: 300;
+    line-height: 1.4;
+    max-width: 26em;
+  }
+  a {
+    text-decoration: none;
+    color: #121314;
+    position: relative;
+  }
+  a:hover {
+    color: #e0edfa;
+    transition: color 500ms cubic-bezier(0, .8, .13, 1);
+  }
+  a:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 85%;
+    left: -0.1em;
+    right: -0.1em;
+    bottom: 0;
+    transition: top 400ms cubic-bezier(0, .8, .13, 1);
+    background-color: #0000ff;
+  }
+  a:hover:after {
+    top: 0%;
+
+  }
+
 </style>
