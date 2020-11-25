@@ -48,6 +48,7 @@ export default {
     -webkit-font-smoothing: antialiased;
     padding: 5vh 10vw;
     color: #121314;
+    cursor: default;
   }
   h1 {
     font-size: 4.5em;
