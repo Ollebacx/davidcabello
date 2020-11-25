@@ -17,14 +17,12 @@
   <p>
     You can follow me on <a href="https://twitter.com/ollebacx" target="_blank">Twitter</a> and
     <a href="https://medium.com/@ollebacx" target="_blank">Medium</a>,
-    where I am starting to write about code and 
-    my work is publicly available on
+    where I am writing about code and my work is publicly available on
     <a href="https://github.com/Ollebacx" target="_blank">GitHub</a>.
   </p>
 
   <p>
-    Outside of programming 
-    and take care of my wonderful dog,
+    Outside of programming and take care of my wonderful dog,
     I enjoy sci-fi, mixed martial arts, pizza and surfing.
   </p>
     <!-- <p>
