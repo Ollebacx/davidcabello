@@ -2,34 +2,38 @@
 <h1>
   Hello.
 </h1>
-<p style="font-weight:500; font-size:2.2em">
-    My name is David Cabello.
+<p class="h2">
+    My name is not Evan You.
+  </p>
+
+ <p>
+    But I'm pretty sure we have one thing in common: we both started with little knowledge and a ton of desire.
+  </p>
+  <p>
+    I am a web developer who recently started programming using the JavaScript framework
+    <a href="https://vuejs.org" target="_blank">Vue.js</a> and now I am learning about <a href="https://angular.io/" target="_blank">Angular</a> (sorry for that, Evan).
   </p>
 
   <p>
-    I am an independent software developer and the creator of the open source JavaScript framework
-    <a href="https://vuejs.org" target="_blank">Vue.js</a>.
-    Most of my work is open source and publicly available on
-    <a href="https://github.com/yyx990803" target="_blank">GitHub</a>.
+    You can follow me on <a href="https://twitter.com/ollebacx" target="_blank">Twitter</a> and
+    <a href="https://medium.com/@ollebacx" target="_blank">Medium</a>,
+    where I am going to start writing about code and 
+    my work is publicly available on
+    <a href="https://github.com/Ollebacx" target="_blank">GitHub</a>.
   </p>
 
-  <p>
-    I have an <a href="https://blog.evanyou.me" target="_blank">old blog</a>
-    which I no longer actively update - you probably want to follow me on
-    <a href="https://twitter.com/youyuxi" target="_blank">Twitter</a> and
-    <a href="https://medium.com/@youyuxi" target="_blank">Medium</a>
-    for more up-to-date content.
-  </p>
-
-  <p>
-    If you happen to speak Chinese, my Chinese name is 尤雨溪. you can also find me on
+  <!-- <p>
+    If you happen to speak Chinese, wow! I really like Chinese typo. you can also find me on
     <a href="https://www.weibo.com/arttechdesign" target="_blank">微博</a> and
     <a href="https://www.zhihu.com/people/evanyou/activities" target="_blank">知乎</a>.
-  </p>
+  </p> -->
 
   <p>
-    Outside of programming and helping my wife take care of our two kids,
-    I enjoy video games, karaoke, sushi and collecting watches.
+    Outside of programming,
+    I enjoy sci-fi, mixed martial arts, pizza and surfing.
+  </p>
+    <p>
+<a href="https://www.linkedin.com/in/david-cabello-oquendo/" target="_blank">David Cabello</a>.
   </p>
 </template>
 
@@ -55,6 +59,11 @@ export default {
     font-weight: 500;
     margin-bottom: 0;
   }
+  .h2 {
+    font-size: 2.2em;
+    font-weight: 500;
+    line-height: 1.4;
+  }
   p {
     font-size: 1.6em;
     font-weight: 300;
@@ -67,22 +76,23 @@ export default {
     position: relative;
   }
   a:hover {
-    color: #e0edfa;
-    transition: color 500ms cubic-bezier(0, .8, .13, 1);
+    color: #ffffff;
+    transition: color 400ms cubic-bezier(0, .8, .13, 1);
   }
   a:after {
     content: "";
     position: absolute;
     z-index: -1;
-    top: 85%;
+    top: 65%;
     left: -0.1em;
     right: -0.1em;
     bottom: 0;
-    transition: top 400ms cubic-bezier(0, .8, .13, 1);
-    background-color: #0000ff;
+    transition: top 300ms cubic-bezier(0, .8, .13, 1),background-color 300ms cubic-bezier(0, .8, .13, 1);
+    background-color: rgba(0, 0, 255, 0.3);
   }
   a:hover:after {
     top: 0%;
+    background-color: rgba(0, 0, 255, 1);
 
   }
 
