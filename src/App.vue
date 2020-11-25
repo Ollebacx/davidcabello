@@ -29,7 +29,8 @@
   </p> -->
 
   <p>
-    Outside of programming,
+    Outside of programming 
+    and take care of my wonderful dog,
     I enjoy sci-fi, mixed martial arts, pizza and surfing.
   </p>
     <p>
