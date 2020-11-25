@@ -7,7 +7,7 @@
   </p>
 
  <p>
-    But I'm pretty sure we have one thing in common: we both started with little knowledge and a ton of desire.
+    However, I'm pretty sure we have one thing in common: we both started with little knowledge and a ton of desire.
   </p>
   <p>
     I am a web developer who recently started programming using the JavaScript framework
@@ -17,25 +17,19 @@
   <p>
     You can follow me on <a href="https://twitter.com/ollebacx" target="_blank">Twitter</a> and
     <a href="https://medium.com/@ollebacx" target="_blank">Medium</a>,
-    where I am going to start writing about code and 
+    where I am starting to write about code and 
     my work is publicly available on
     <a href="https://github.com/Ollebacx" target="_blank">GitHub</a>.
   </p>
-
-  <!-- <p>
-    If you happen to speak Chinese, wow! I really like Chinese typo. you can also find me on
-    <a href="https://www.weibo.com/arttechdesign" target="_blank">微博</a> and
-    <a href="https://www.zhihu.com/people/evanyou/activities" target="_blank">知乎</a>.
-  </p> -->
 
   <p>
     Outside of programming 
     and take care of my wonderful dog,
     I enjoy sci-fi, mixed martial arts, pizza and surfing.
   </p>
-    <p>
+    <!-- <p>
 <a href="https://www.linkedin.com/in/david-cabello-oquendo/" target="_blank">David Cabello</a>.
-  </p>
+  </p> -->
 </template>
 
 <script>
@@ -78,7 +72,7 @@ export default {
   }
   a:hover {
     color: #ffffff;
-    transition: color 400ms cubic-bezier(0, .8, .13, 1);
+    transition: color 300ms cubic-bezier(0, .8, .13, 1);
   }
   a:after {
     content: "";
@@ -88,7 +82,7 @@ export default {
     left: -0.1em;
     right: -0.1em;
     bottom: 0;
-    transition: top 300ms cubic-bezier(0, .8, .13, 1),background-color 300ms cubic-bezier(0, .8, .13, 1);
+    transition: top 200ms cubic-bezier(0, .8, .13, 1),background-color 200ms cubic-bezier(0, .8, .13, 1);
     background-color: rgba(0, 0, 255, 0.3);
   }
   a:hover:after {
