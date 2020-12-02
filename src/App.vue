@@ -11,14 +11,14 @@
   </p>
   <p>
     I am a web developer who recently started programming using the JavaScript framework
-    <a href="https://vuejs.org" target="_blank">Vue.js</a> and now I am learning about <a href="https://angular.io/" target="_blank">Angular</a> (sorry for that, Evan).
+    <a href="https://vuejs.org" target="_blank" rel="noopener noreferrer">Vue.js</a> and now I am learning about <a href="https://angular.io/" target="_blank" rel="noopener noreferrer">Angular</a> (sorry for that, Evan).
   </p>
 
   <p>
-    You can follow me on <a href="https://twitter.com/ollebacx" target="_blank">Twitter</a> and
-    <a href="https://medium.com/@ollebacx" target="_blank">Medium</a>,
+    You can follow me on <a href="https://twitter.com/ollebacx" target="_blank" rel="noopener noreferrer">Twitter</a> and
+    <a href="https://medium.com/@ollebacx" target="_blank" rel="noopener noreferrer">Medium</a>,
     where I am writing about code and my work is publicly available on
-    <a href="https://github.com/Ollebacx" target="_blank">GitHub</a>.
+    <a href="https://github.com/Ollebacx" target="_blank" rel="noopener noreferrer">GitHub</a>.
   </p>
 
   <p>
