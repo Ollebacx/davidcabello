@@ -8,9 +8,12 @@
 }
 .main-content {
   padding: 10vh 10vw;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
 }
 h1 {
-  font-size: 4.5em;
+  font-size: 2em;
   font-weight: 500;
   margin-bottom: 0;
 }
@@ -54,32 +57,44 @@ a:hover:after {
 /* TICKER */
 
 .ticker {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100vw;
-  height: 30px;
-  overflow: hidden;
-  background: #A770EF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 50px;
+  margin: 10px 0px 50px 0px;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 1.5em;
 }
+
+.ticker:before {
+  display: block;
+  content: '';
+  width: 96vw;
+  height: 100%;
+  transform: translateX(2%);
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+}
+.ticker:hover .ticker__msg{
+  animation-play-state: paused;
+}
+
 .ticker__msg {
   position: absolute;
   top: 0;
   left: 0;
   font-weight: 900;
-  font-size: 1.5em;
-  text-transform: uppercase;
+  font-style: italic;
+  /* text-transform: uppercase; */
   white-space: nowrap;
-  line-height: 30px;
+  line-height: 50px;
   color: #212121;
-  animation: animate 16s linear infinite;
+  animation: animate 10s linear infinite;
   opacity: 0;
 }
 
 .msg_2 {
-  animation-delay: 8s;
+  animation-delay: 5s;
 }
 
 .outlined {
@@ -97,4 +112,38 @@ background: linear-gradient(to bottom, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10
     transform: translateX(-100%);
  }
 }
+
+/* Buttons styles start */
+button {
+  display: inline-block;
+  font-weight: 900;
+  border: none;
+  padding: 1rem 1rem;
+  margin-left: 10px;
+  font-size: .8em;
+  text-decoration: none;
+  background: black;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  height: 50px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: #0053ba;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+/* Button styles end */
 
