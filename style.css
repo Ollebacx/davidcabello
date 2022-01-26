@@ -141,7 +141,7 @@ nav {
   font-family: var(--sans-serif);
   font-size: 2em;
   font-style: italic;
-  background-color: var(--light-blue);
+  background-color: var(--magenta);
   color: var(--white);
   overflow: hidden;
   /* max-width: 479px; */
