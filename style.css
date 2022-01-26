@@ -3,8 +3,8 @@
   --serif: "Noto Serif", serif;
   --sans-serif: "Montserrat", sans-serif;
   --white: white;
-  --nav-height: 120px;
-  --dark: #1a1a1a;
+  --nav-height: 100px;
+  --dark: #111111;
   --dark-blue: rgb(5, 8, 36);
   --light-blue: rgb(84, 174, 198);
   --magenta: rgb(232, 92, 111);
@@ -13,6 +13,10 @@
 
 body {
   background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #app {
@@ -25,20 +29,18 @@ body {
   margin: 0;
 }
 .main-content {
-  padding: 0 10vw;
+  padding: 0 2em;
   max-width: 1200px;
   display: flex;
-  height: 70vh;
+  height: calc(100vh - var(--nav-height));
 }
 
 .main-content__paragraph {
-  max-width: 70%;
-  padding: 0 4vw;
-  align-self: flex-end;
+  margin-top: var(--nav-height);
 }
 h1 {
   color: var(--white);
-  font-size: 4.5em;
+  font-size: calc(3.5em + 1vw);
   margin-bottom: 0;
   font-weight: 900;
   line-height: 1.1em;
@@ -100,18 +102,18 @@ button.text:hover:after {
 
 header {
   width: 100vw;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   height: var(--nav-height);
-  position: absolute;
 }
 nav {
   font-family: var(--sans-serif);
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: calc(1200px - 5vw);
+  padding: 0 2em;
 }
 
 .logo {
